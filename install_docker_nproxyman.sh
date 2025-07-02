@@ -637,7 +637,7 @@ startInstall()
         mkdir -p docker/guacamole
         cd docker/guacamole
 
-        curl https://gitlab.com/bmcgonag/docker_installs/-/raw/main/docker_compose_guacamole.yml -o docker-compose.yml >> ~/docker-script-install.log 2>&1
+        curl https://github.com/sent1nu11/docker_installs/blob/main/docker_compose_guacamole.yml -o docker-compose.yml >> ~/docker-script-install.log 2>&1
 
         echo ""
         echo ""
