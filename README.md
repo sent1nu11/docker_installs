@@ -6,4 +6,9 @@ Default login are username: admin@example.com, password: changeme
 
 Portainer - Port 9000
 
+Guacamole - Port 8080
+Default login are username: guacadmin, password: guacadmin
+
+
+
 
