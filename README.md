@@ -9,6 +9,8 @@ Portainer - Port 9000
 Guacamole - Port 8080
 Default login are username: guacadmin, password: guacadmin
 
+Uptime Kuma - Port 3001
 
+Beszel - Port 8090
 
 
