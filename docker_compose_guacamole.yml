@@ -21,9 +21,9 @@ services:
     environment:
       GUACD_HOSTNAME: "guacd"
       MYSQL_HOSTNAME: "db"
-      MYSQL_DATABASE: "guacamole_db"
-      MYSQL_USER: "guacamole_user"
-      MYSQL_PASSWORD: "MariaDBUserPass"
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       TOTP_ENABLED: "true"
     depends_on:
       - db
